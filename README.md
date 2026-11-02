@@ -47,7 +47,6 @@ I lead a team of 5 engineers at Webvoltz and own projects end to end, from the f
 
 ## What I help businesses with
 
-|:--|:--|
 | 🛒 **Commerce & retail platforms** | Point-of-sale, checkout, payments and order management that hold up across hundreds of stores and peak sales days. |
 | 💬 **Customer communication** | WhatsApp, SMS and real-time chat that reach customers automatically, with fallbacks when a message doesn't get through. |
 | 🤖 **AI on your own data** | Assistants that answer questions from your documents and databases, with sources you can check. |

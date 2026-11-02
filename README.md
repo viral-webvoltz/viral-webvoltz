@@ -1,180 +1,191 @@
 <div align="center">
 
-```
-╭──────────────────────────────────────────────────────────────╮
-│ ✻ Welcome to Viral's profile                                 │
-│                                                              │
-│   /help for help, /projects to see what I've shipped         │
-│                                                              │
-│   cwd: ~/ig-ViraL                                            │
-╰──────────────────────────────────────────────────────────────╯
-```
-
 # Viral Deshle
 
-**Senior Software Engineer · Team Lead · Full-Stack & GenAI**
+### Senior Software Engineer & Team Lead at [Webvoltz](https://webvoltz.com)
 
-Building real-time, scalable platforms, from WhatsApp-driven healthcare SaaS to retail systems running 170+ stores.<br/>
-Surat, Gujarat, India · Open to remote and relocation
+**I help businesses build software that handles real scale, from retail chains running 170+ stores to healthcare platforms talking to patients on WhatsApp.**
+
+Surat, India · Working with clients worldwide
 
 <a href="https://www.linkedin.com/in/viral-deshle/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:viraldeshle1234@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://www.viral-deshle.cloud/"><img src="https://img.shields.io/badge/Portfolio-d77757?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
-<a href="https://github.com/ig-ViraL"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://www.viral-deshle.cloud/"><img src="https://img.shields.io/badge/Portfolio-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+<a href="https://webvoltz.com"><img src="https://img.shields.io/badge/Webvoltz-d77757?style=for-the-badge&logoColor=white"/></a>
 
 </div>
 
-<br/>
+---
 
-## `> whoami`
+## About
 
-```console
-viral@surat:~$ cat profile.json
-{
-  "role":        "Sr. Software Engineer @ Webvoltz (Team Lead, team of 5)",
-  "experience":  "3 years across startups, D2C and enterprise retail",
-  "focus":       ["real-time systems", "distributed architecture", "GenAI full-stack"],
-  "currently":   "Building RAG pipelines, LLM-integrated APIs and MCP tooling",
-  "certified":   "AWS Certified Developer – Associate (888/1000)",
-  "education":   "B.Tech CS, GTU (CGPA 9.17)",
-  "principle":   "Impact-first, outcome-driven"
-}
-```
+I lead a team of 5 engineers at Webvoltz and own projects end to end, from the first requirements call to launch and ongoing support. Over the last 3 years I've delivered platforms for startups, D2C brands and enterprise retail, with a focus on three things clients care about:
 
-## `> impact --summary`
+- **It keeps working under pressure.** Systems that stayed up for 1M+ users during peak sales.
+- **It saves money and time.** Lower infrastructure bills, fewer manual steps, faster checkouts.
+- **It's built to grow.** Architecture that handles the next 10x without a rewrite.
+
+**AWS Certified Developer – Associate** · **B.Tech in Computer Science** (CGPA 9.17)
+
+---
+
+## Results delivered
 
 <div align="center">
 
-| 🏬 **170+** | 📦 **800+** | 👥 **1M+** | 💬 **30M+** | 💸 **$6K/mo** |
+| **170+** | **1M+** | **$6,000/mo** | **40% faster** | **60% fewer** |
 |:---:|:---:|:---:|:---:|:---:|
-| retail stores on one POS | daily orders processed | peak-event users, zero downtime | real-time messages handled | infra cost saved |
+| retail stores running on one platform | users served at peak with zero downtime | saved on infrastructure costs | cart-to-order checkout time | failed deliveries |
 
-| ⚡ **45K** | 🚚 **-60%** | 🛒 **-40%** | 🗂️ **7M+** | 🤖 **10** |
+| **800+** | **30M+** | **45,000** | **60% less** | **7M+** |
 |:---:|:---:|:---:|:---:|:---:|
-| concurrent users on WebSockets | delivery failures | cart-to-order time | coupons indexed in DynamoDB | MCP tools shipped |
-
-| 🏢 **6** | 🎟️ **15,000** | 🔁 **0** | 🔫 **35–95 ms** | 🧪 **420+** |
-|:---:|:---:|:---:|:---:|:---:|
-| Webvoltz case studies published | seats on one live map | double sends on duplicate webhooks | per CCTV frame on one GPU | tests across Webvoltz builds |
+| orders processed every day | real-time messages handled | people online at the same time | manual work for the CRM team | coupons tracked reliably |
 
 </div>
 
-## `> experience`
-
-### Sr. Software Engineer · [Webvoltz](https://webvoltz.com) · *Jun 2026 – Present*
-
-**CarePath: Multi-tenant patient communication platform for dental clinics**
-<sub>`Next.js` · `WhatsApp Business API` · `SMS` · `RBAC` · `Webhooks`</sub>
-
-- Lead architecture and delivery of a multi-tenant SaaS automating clinic-to-patient communication over WhatsApp and SMS, with RBAC across 4 roles (Super Admin, Clinic Admin, Staff, Patient).
-- Built a **dynamic workflow engine**: master workflows that clinics clone, with steps scheduled relative to patient-specific dates (e.g. surgery date ± N days) and **snapshotted at enrollment**, so template edits never break in-flight patient journeys.
-- Integrated the WhatsApp Business API: Meta-approved templates, webhook-driven two-way chat gated by the **23-hour customer service window**, and automatic **SMS fallback** on delivery failure.
-- Implemented **red-flag detection** on patient replies (English, Hindi, Gujarati and Roman-script keywords) that raises real-time staff alerts, backed by audit logs with delivery status.
-
-**Webvoltz client work: published case studies**
-
-| Case study | Outcome | Stack |
-|:--|:--|:--|
-| 🎟️ **[Event Seating Map](https://github.com/vish2293/event-seating-map-case-study)** | Live seat map for a **15,000-seat venue**: only the open section's 1,500 seats go live, so clicks paint in ~2 frames. Seat holds expire on time and no seat is ever shown to two buyers. 222 tests. | `React 19` `TypeScript` `Redis` `PostgreSQL` `WebSockets` |
-| 🔁 **[CRM Automation](https://github.com/vish2293/crm-automation-case-study)** | GoHighLevel integration where **one front-desk click** runs a full review-request campaign. Eight send gates, a Postgres job queue with `SKIP LOCKED`, and webhooks applied **exactly once**. 141 tests. | `Node 22` `TypeScript` `PostgreSQL` `GoHighLevel API` |
-| 📄 **[DocMind](https://github.com/vish2293/docmind-case-study)** | Agentic Q&A over long documents: structure-aware indexing, a bounded research agent, hybrid search reranking **50 → 5**, and a second model that removes any claim the evidence doesn't support. | `FastAPI` `pgvector` `Claude` `bge-reranker` |
-| 🕸️ **[Websearch](https://github.com/vish2293/search-engine-case-study)** | AI search engine with its **own crawler and index** and no third-party search API. Adaptive crawling, hybrid keyword + semantic ranking, and answers that can't cite pages they didn't read. | `Scrapy` `OpenSearch` `PostgreSQL` `bge-m3` |
-| 🔫 **[Netram](https://github.com/vish2293/netram-weapon-detection-case-study)** | Real-time person and gun detection on CCTV with two-pass YOLO and ByteTrack. **35–95 ms per frame** on one GPU, with distant weapons given 2.2× the pixels. | `YOLO` `ByteTrack` `PyTorch` `FastAPI` |
-| 🗺️ **[Map Solutions Guide](https://github.com/vish2293/map-solutions-guide-case-study)** | Playbook for map products: drawn zones, data-driven styling, address search, point-in-zone lookups and distance APIs, drawn from a reference project with 1,350+ tests. | `Mapbox GL` `Turf.js` `PostGIS` |
-
-**Team leadership & delivery**
-- Team lead for **5 engineers**, owning projects from requirements to deployment across the full SDLC.
-- Re-architected and delivered **3 existing projects** and onboarded **3 new ones** from the ground up.
-- Own code review and PR approval; introduced **CodeRabbit** for AI-assisted reviews, catching bugs earlier and cutting manual review time.
-
 ---
 
-### Full Stack Developer · [devx labs](https://devxlabs.ai) · *Dec 2024 – Feb 2026*
-
-**The Sleep Company: Enterprise POS & retail platform**
-<sub>`React` · `Next.js` · `GraphQL` · `AWS Lambda` · `ECS` · `API Gateway` · `DynamoDB` · `Cognito` · `Step Functions`</sub>
-
-- Led delivery of a POS platform across **170+ stores** processing **800+ daily orders**.
-- Revamped the checkout flow, cutting cart-to-order completion time by **40%**.
-- Architected an event-driven **Order Editing workflow on AWS Step Functions** with live recalculation, reducing CRM manual workload by **60%**.
-- Integrated **6 payment gateways** (Razorpay, PayU, Snapmint, Pine Labs POS, Gyftr, cash) with Shopify GraphQL as the central OMS.
-- Designed a DynamoDB indexing strategy tracking **7M+ coupons**, and replaced cron jobs with **EventBridge** scheduling, fixing observability gaps and environment drift across dev, UAT and prod.
-
-**Foxtale: D2C e-commerce platform**
-<sub>`Next.js` · `Strapi CMS` · `Shopify OMS` · `AWS ECS Fargate`</sub>
-
-- Served **100K+ DAU** and scaled to **1M+ users and 10K+ orders/day** during peak sales with **zero downtime**.
-- Built homepage personalization by location and segment, with Next.js **ISR** for fast, always-fresh pages.
-- Replaced CloudFront with a custom Shopify CDN Strapi plugin, saving **$6,000/month**.
-- Cut delivery failures by **60%** with Google Maps geolocation and address normalization.
-- Integrated **8+ third-party services** (Gupshup, Mixpanel, WebEngage, GTM, ClickPost, EasyEcom).
-
-**Reliability & leadership:** API Gateway rate limiting, SSM/Secrets Manager, CloudWatch; primary on-call for production incidents; mentored 3 developers; ran system design and DSA interviews; led the Next.js 15 → 16 migration; authored architecture docs.
-
----
-
-### Jr. Full Stack Developer · WebOsmotic · *Feb 2023 – Nov 2024*
-
-- Built a real-time communication platform (chat, Q&A, presence) for **45K concurrent / 240K unique users** and **30M+ messages**, on `Node.js` · `Socket.IO` · `Redis pub/sub` for horizontal scaling.
-- Developed **Narad.io**, a notification module delivering system and user events with **sub-second latency**.
-- Built **Guidy**, a WCAG accessibility platform: Puppeteer-based auditing API, a nightly Lambda re-crawl, and 3 embeddable widgets.
-- Prototyped **WebRTC** P2P video and stress-tested dashboards against simulated millions of concurrent WebSocket connections.
-
-## `> ls projects/`
-
-| Project | What it does | Stack |
-|:--|:--|:--|
-| **DocMind** · RAG Document Q&A · [UI](https://www.viral-deshle.cloud/docmind) · [Code](https://github.com/ig-ViraL/doc-mind-backend) | End-to-end RAG: PDF/DOCX/TXT ingestion, recursive chunking, MiniLM embeddings, pgvector IVFFlat, cross-encoder reranking, hybrid search (pgvector + BM25 via RRF), Claude synthesis with citations, streamed over SSE. | `Python` `FastAPI` `pgvector` `Claude API` `Next.js` `Docker` |
-| **PostgreSQL MCP Server** · [Live demo](https://www.viral-deshle.cloud/pg-mcp) · [Code](https://github.com/ig-ViraL/pg-mcp-server) | Production MCP server exposing **10 tools** (schema discovery, query execution, performance analysis, DB health). Sandboxed: read-only role, mutation blocking, auto `LIMIT`, 5s timeout, AES-256-GCM encrypted connection strings, zero server-side credentials. | `Python` `FastMCP` `asyncpg` `React` `Railway` |
-| **Real-Time Stock Screener** · [Live demo](https://stock-screener-beta-two.vercel.app/) · [Code](https://github.com/ig-ViraL/stock-screener) | Live dashboard streaming 25+ stocks over Finnhub WebSocket. `use cache` + Partial Prerendering for a **90%+ cache hit rate** within API rate caps; URL-driven, shareable filters. | `Next.js 16` `TypeScript` `WebSockets` |
-
-> The PG-MCP demo is live; the DocMind backend runs on free-tier hosting and is offline between demos, so its repo includes Docker setup to run it locally. More on my [portfolio](https://www.viral-deshle.cloud/). Also public: [claude-code agents](https://github.com/ig-ViraL/agents) and [DSA practice](https://github.com/ig-ViraL/DSA). Built with Claude Code as a pair programmer; the architecture and decisions are mine.
-
-## `> cat skills.txt`
-
-<div align="center">
+## What I help businesses with
 
 | | |
 |:--|:--|
-| **Languages** | `JavaScript` `TypeScript` `Python` `SQL` |
-| **Frontend** | `React` `Next.js` `Tailwind CSS` `WCAG Accessibility` |
-| **Backend** | `Node.js` `Express` `NestJS` `FastAPI` `GraphQL` `REST` `WebSockets` `WebRTC` |
-| **Data** | `PostgreSQL` `MongoDB` `DynamoDB` `Redis` `Elasticsearch` `OpenSearch` `pgvector` |
-| **Cloud & DevOps** | `AWS` `Docker` `Terraform` `GitHub Actions` `Vercel` `CI/CD` |
-| **Architecture** | `Microservices` `Event-Driven` `Distributed Systems` `System Design` |
-| **AI & GenAI** | `RAG` `Vector Search` `Embeddings` `Agents` `LLM Integration` `MCP` `FastMCP` `Computer Vision` |
-| **Integrations** | `WhatsApp Business API` `GoHighLevel` `Shopify` `Payment Gateways` |
-| **Workflow** | `Claude Code` `Cursor` `CodeRabbit` `Git` `Jira` `Agile/Scrum` |
+| 🛒 **Commerce & retail platforms** | Point-of-sale, checkout, payments and order management that hold up across hundreds of stores and peak sales days. |
+| 💬 **Customer communication** | WhatsApp, SMS and real-time chat that reach customers automatically, with fallbacks when a message doesn't get through. |
+| 🤖 **AI on your own data** | Assistants that answer questions from your documents and databases, with sources you can check. |
+| ⚙️ **Automation & integrations** | Connecting CRMs, payment gateways and third-party tools so your team stops doing the same task by hand. |
+| 📈 **Scaling & cost control** | Cloud architecture on AWS that stays fast as traffic grows and doesn't waste money. |
 
-<img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,tailwind,nodejs,nestjs,fastapi,graphql,postgres,mongodb,redis,dynamodb,aws,docker,terraform,githubactions&perline=9" />
+---
 
-</div>
+## Selected client work
 
-## `> git log --stat`
+### 🦷 CarePath: patient communication for dental clinics
+**Webvoltz · Healthcare SaaS · 2026 – present**
+
+**The challenge:** Clinics were keeping in touch with patients before and after treatment by hand, which meant missed reminders and slow responses to problems.
+
+**What we delivered:**
+- One platform that many clinics share securely, with separate access for admins, clinic staff and patients.
+- Automated patient journeys over **WhatsApp**, timed around each patient's own treatment date, with **automatic SMS backup** if a WhatsApp message fails.
+- Journeys are locked in when a patient enrolls, so a clinic can update its templates without disrupting patients already in progress.
+- **Red-flag alerts**: when a patient's reply suggests a problem (in English, Hindi or Gujarati), staff are notified instantly, with a full record of every message.
+
+<sub>Built with Next.js, WhatsApp Business API, SMS gateways</sub>
+
+### 🛏️ The Sleep Company: retail platform for 170+ stores
+**devx labs · Enterprise retail · Dec 2024 – Feb 2026**
+
+**The challenge:** A national sleep and mattress brand needed one reliable in-store sales system across a national store network.
+
+**What we delivered:**
+- Led delivery of the point-of-sale platform used in **170+ stores**, processing **800+ orders a day**.
+- Redesigned checkout, cutting the time from cart to confirmed order by **40%**.
+- Automated order changes so they recalculate instantly, cutting the CRM team's manual work by **60%**.
+- Connected **6 payment options** (Razorpay, PayU, Snapmint, Pine Labs, Gyftr and cash) to Shopify as the single source of orders.
+- Built a reliable system to track **7M+ discount coupons**, and made scheduled jobs easier to monitor across all environments.
+
+<sub>Built with React, Next.js, GraphQL, AWS (Lambda, ECS, DynamoDB, Step Functions, Cognito)</sub>
+
+### 🧴 Foxtale: D2C skincare e-commerce
+**devx labs · D2C e-commerce · Dec 2024 – Feb 2026**
+
+**The challenge:** A D2C brand needed its online store to stay fast and stable during huge sale events.
+
+**What we delivered:**
+- Kept the store running for **100K+ daily users**, scaling to **1M+ users and 10K+ orders a day** at peak with **zero downtime**.
+- Personalized the homepage by location and customer segment, while keeping pages fast.
+- Replaced a costly content delivery setup with a custom solution, saving **$6,000 every month**.
+- Cut failed deliveries by **60%** by checking and cleaning up customer addresses.
+- Connected **8+ marketing, messaging and logistics tools** (Gupshup, Mixpanel, WebEngage, GTM, ClickPost, EasyEcom).
+
+<sub>Built with Next.js, Strapi CMS, Shopify, AWS ECS Fargate</sub>
+
+### 💬 Real-time communication platform
+**WebOsmotic · Feb 2023 – Nov 2024**
+
+- Built live chat, Q&A and online presence for **45,000 people at once** (240,000 unique users) and **30M+ messages**.
+- Built **Narad.io**, a notification service that delivers alerts in **under a second**.
+- Built **Guidy**, a website accessibility checker that audits sites, re-checks them nightly and ships 3 ready-to-embed widgets.
+- Prototyped live video calling and load-tested dashboards against millions of simulated connections.
+
+<sub>Built with Node.js, Socket.IO, Redis, AWS Lambda, Puppeteer, WebRTC</sub>
+
+---
+
+## More from Webvoltz
+
+Published case studies from our client work. Each one explains the business problem, what was built and the results.
+
+| Project | Business problem | Result |
+|:--|:--|:--|
+| 🎟️ **[Event Seating Map](https://github.com/vish2293/event-seating-map-case-study)** | Ticket buyers in a large venue need to pick exact seats without clashes. | Live seat map for a **15,000-seat venue** that responds instantly and never shows the same seat to two buyers. |
+| 🔁 **[CRM Review Automation](https://github.com/vish2293/crm-automation-case-study)** | Front-desk staff were chasing customer reviews by hand. | **One click** starts a full review-request campaign in GoHighLevel, with **8 safety checks** so no customer is texted twice or at the wrong time. |
+| 📄 **[DocMind](https://github.com/vish2293/docmind-case-study)** | Teams lose hours searching long contracts, reports and manuals. | An AI assistant that answers questions from long documents, with **every answer linked to its page** and unsupported claims removed. |
+| 🕸️ **[Websearch](https://github.com/vish2293/search-engine-case-study)** | AI products depend on someone else's search engine. | An AI search engine with **its own crawler and index**, giving answers that only cite pages it actually read. |
+| 🛡️ **[Netram](https://github.com/vish2293/netram-weapon-detection-case-study)** | Security teams can't watch every camera feed. | AI that spots and tracks people and weapons on live CCTV in **under 0.1 seconds per frame**. |
+| 🗺️ **[Map Solutions Guide](https://github.com/vish2293/map-solutions-guide-case-study)** | Insurance, property and logistics teams need decisions based on location. | A practical guide to map features: drawn zones, address search, area lookups and distance tools. |
+
+---
+
+## Products I've built
+
+| Product | What it does | Try it |
+|:--|:--|:--|
+| **DocMind** | Upload a PDF or Word file and ask questions in plain English. Answers come with citations to the exact source. | [Demo](https://www.viral-deshle.cloud/docmind) · [Code](https://github.com/ig-ViraL/doc-mind-backend) |
+| **PostgreSQL AI Assistant (MCP)** | Lets AI tools safely explore and analyze a database through **10 built-in tools**: read-only access, encrypted connections and automatic limits. | [Live demo](https://www.viral-deshle.cloud/pg-mcp) · [Code](https://github.com/ig-ViraL/pg-mcp-server) |
+| **Real-Time Stock Screener** | Live dashboard tracking 25+ stocks, with shareable filters and a **90%+ cache hit rate** that keeps it fast. | [Live demo](https://stock-screener-beta-two.vercel.app/) · [Code](https://github.com/ig-ViraL/stock-screener) |
+
+<sub>DocMind's demo runs on free hosting and may be offline between demos. Its code includes a one-command local setup. More on my [portfolio](https://www.viral-deshle.cloud/).</sub>
+
+---
+
+## How I work
+
+- **Ownership from start to finish.** I lead a team of 5 from requirements to deployment, and I'm the first responder if anything goes wrong in production.
+- **Quality you can rely on.** Every change is reviewed, with AI-assisted code review (CodeRabbit) catching issues early.
+- **Proven at turnarounds.** Re-architected and delivered 3 existing projects, and launched 3 new ones from scratch.
+- **Clear documentation.** Architecture docs and handover notes so your team is never locked out of its own system.
+- **Building the team.** Mentored 3 developers and ran technical interviews for new hires.
+
+---
+
+## Technology
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ig-ViraL&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ig-ViraL&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+| Area | Tools |
+|:--|:--|
+| **Web front end** | React · Next.js · Tailwind CSS · Accessibility (WCAG) |
+| **Back end & APIs** | Node.js · NestJS · Express · Python · FastAPI · GraphQL · WebSockets |
+| **Databases** | PostgreSQL · MongoDB · DynamoDB · Redis · Elasticsearch · OpenSearch |
+| **Cloud** | AWS (certified) · Docker · Terraform · Vercel · CI/CD |
+| **AI** | RAG · AI agents · LLM integration (Claude) · MCP · Computer vision |
+| **Integrations** | WhatsApp Business · Shopify · GoHighLevel · Razorpay, PayU and other payment gateways |
 
-<img src="https://streak-stats.demolab.com?user=ig-ViraL&theme=tokyonight&hide_border=true" />
+<br/>
+
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,nestjs,py,fastapi,graphql,postgres,mongodb,redis,dynamodb,aws,docker,terraform&perline=15" />
 
 </div>
 
-## `> credentials`
+---
 
-- 🏆 **AWS Certified Developer – Associate**, Feb 2026, score **888/1000**
-- 🎓 **B.Tech in Computer Science**, Gujarat Technological University, 2019–2023, CGPA **9.17**
+## Credentials
 
-## `> contact --open`
+- 🏆 **AWS Certified Developer – Associate**, Feb 2026 (score 888/1000)
+- 🎓 **B.Tech in Computer Science**, Gujarat Technological University, 2019–2023 (CGPA 9.17)
 
-I'm open to senior and lead full-stack roles, especially around real-time systems, distributed architecture and GenAI products.
-
-```console
-viral@surat:~$ echo "Let's build something that scales."
-Let's build something that scales.
-```
+---
 
 <div align="center">
-<sub>✻ Engineered with care · Updated October 2026</sub>
+
+### Let's build something that scales
+
+Have a platform that needs to handle more users, cost less to run, or save your team hours of manual work?
+
+<a href="mailto:viraldeshle1234@gmail.com"><img src="https://img.shields.io/badge/Start_a_conversation-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/viral-deshle/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+
+<sub>Updated November 2026</sub>
+
 </div>

@@ -111,21 +111,6 @@ I lead a team of 5 engineers at Webvoltz and own projects end to end, from the f
 
 ---
 
-## More from Webvoltz
-
-Published case studies from our client work. Each one explains the business problem, what was built and the results.
-
-| Project | Business problem | Result |
-|:--|:--|:--|
-| 🎟️ **[Event Seating Map](https://github.com/vish2293/event-seating-map-case-study)** | Ticket buyers in a large venue need to pick exact seats without clashes. | Live seat map for a **15,000-seat venue** that responds instantly and never shows the same seat to two buyers. |
-| 🔁 **[CRM Review Automation](https://github.com/vish2293/crm-automation-case-study)** | Front-desk staff were chasing customer reviews by hand. | **One click** starts a full review-request campaign in GoHighLevel, with **8 safety checks** so no customer is texted twice or at the wrong time. |
-| 📄 **[DocMind](https://github.com/vish2293/docmind-case-study)** | Teams lose hours searching long contracts, reports and manuals. | An AI assistant that answers questions from long documents, with **every answer linked to its page** and unsupported claims removed. |
-| 🕸️ **[Websearch](https://github.com/vish2293/search-engine-case-study)** | AI products depend on someone else's search engine. | An AI search engine with **its own crawler and index**, giving answers that only cite pages it actually read. |
-| 🛡️ **[Netram](https://github.com/vish2293/netram-weapon-detection-case-study)** | Security teams can't watch every camera feed. | AI that spots and tracks people and weapons on live CCTV in **under 0.1 seconds per frame**. |
-| 🗺️ **[Map Solutions Guide](https://github.com/vish2293/map-solutions-guide-case-study)** | Insurance, property and logistics teams need decisions based on location. | A practical guide to map features: drawn zones, address search, area lookups and distance tools. |
-
----
-
 ## Products I've built
 
 | Product | What it does | Try it |
